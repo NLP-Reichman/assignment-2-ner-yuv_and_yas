@@ -25,6 +25,9 @@
       32
     ]
   },
-  "test_NERNet": "KeyError('F1')\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_875/49652930.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_875/49652930.py\", line 66, in test_NERNet\n    'f1': results['F1'],\n          ~~~~~~~^^^^^^\nKeyError: 'F1'\n",
-  "test_glove": "FileNotFoundError(2, 'No such file or directory')\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_875/49652930.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_875/49652930.py\", line 73, in test_glove\n    emb_matrix = get_emb_matrix(emb_file, vocab)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_875/2907234400.py\", line 6, in get_emb_matrix\n    with open(filepath, 'r', encoding='utf-8') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'glove.6B.300d.txt'\n"
+  "test_NERNet": {
+    "f1": 0.9736913831702412,
+    "f1_wo_o": 0.7574521014162413
+  },
+  "test_glove": "FileNotFoundError(2, 'No such file or directory')\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_875/1781141640.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_875/1781141640.py\", line 73, in test_glove\n    emb_matrix = get_emb_matrix(emb_file, vocab)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_875/2907234400.py\", line 6, in get_emb_matrix\n    with open(filepath, 'r', encoding='utf-8') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'glove.6B.300d.txt'\n"
 }
